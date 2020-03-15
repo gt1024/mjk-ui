@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vant
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;F:\virtualenvs;D:\Python\Python35_SEG\;D:\Python\Python35_roche\;D:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\gettext-iconv\bin;C:\Program Files\nodejs\;D:\Python\Python35_SEG\Scripts\;D:\Python\Python35_SEG\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Roaming\npm
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\git\mjk-ui\node_modules\axios\lib'
+
+npm manifest: 
+  {
+    "name": "mjk-ui",
+    "description": "A components of pc base on vue2.X",
+    "version": "1.0.1",
+    "author": "pubin_88@163.com <pubin_88@163.com>",
+    "main": "dist/mjk.js",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+      "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --config webpack.dev.js",
+      "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --config webpack.config.js"
+    },
+    "dependencies": {
+      "vue": "^2.5.11"
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not ie <= 8"
+    ],
+   "keywords": [
+    "vue2.x",
+    "components"
+    ],
+    "homepage": "https://github.com/Yuwenbinjie/mjk-ui.git",
+    "devDependencies": {
+      "babel-core": "^6.26.0",
+      "babel-loader": "^7.1.2",
+      "babel-preset-env": "^1.6.0",
+      "babel-preset-stage-3": "^6.24.1",
+      "cross-env": "^5.0.5",
+      "css-loader": "^0.28.7",
+      "extract-text-webpack-plugin": "^3.0.2",
+      "file-loader": "^1.1.4",
+      "node-sass": "^4.11.0",
+      "sass-loader": "^7.1.0",
+      "vue-loader": "^13.0.5",
+      "vue-template-compiler": "^2.4.4",
+      "webpack": "^3.6.0",
+      "webpack-dev-server": "^2.9.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
